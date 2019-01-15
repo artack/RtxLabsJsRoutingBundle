@@ -22,7 +22,7 @@ class RoutingController extends Controller
         $routes = new \stdClass();
         $router = $this->container->get('router');
         foreach ($router->getRouteCollection()->all() as $name => $route) {
-            $routes->$name =  $route->getPattern();
+            $routes->$name =  $route->getPath();
         }
 
         return $routes;
