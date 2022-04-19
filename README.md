@@ -1,6 +1,6 @@
 WARNING
 ============
-This is a copy of the current mailxpert clone bc the original repo has gone!
+> This is a copy because the original repo has gone! The repository is therefore archived & readonly
 
 About
 ============
